@@ -3,11 +3,14 @@ package com.eko.sharepreferenceexample
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.txtoutput
 import kotlinx.android.synthetic.main.activity_second.*
-class SecondActivity : AppCompatActivity() {
+
+class ActivitySecond : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
+
         btnloaddata.setOnClickListener {
             val filename = "$packageName TESTFILE"
             val pref = getSharedPreferences(filename,

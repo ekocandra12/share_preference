@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:gravity="center_vertical|center_horizontal"
     android:padding="16dp"
-    tools:context=".SecondActivity">
+    tools:context=".ActivitySecond">
     <TextView
         android:id="@+id/txtoutput"
         android:layout_width="match_parent"
